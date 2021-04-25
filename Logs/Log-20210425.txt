@@ -1,0 +1,7 @@
+2021-04-25T12:23:19.1632442+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-04-25T12:23:19.2410782+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2021-04-25T12:23:19.2521871+05:30  [INF] Content root path: "E:\Asp.net core\AspCorePractie" (b5d60022)
+2021-04-25T12:23:19.8120215+05:30 80000185-0001-fd00-b63f-84710c7967bb [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2021-04-25T12:23:20.0953117+05:30 80000185-0001-fd00-b63f-84710c7967bb [INF] The main page has been accessed (8ff6bc04)
+2021-04-25T12:23:23.9159447+05:30 80000187-0001-fd00-b63f-84710c7967bb [INF] The main page has been accessed (8ff6bc04)
+2021-04-25T12:23:26.7371197+05:30 80000188-0001-fd00-b63f-84710c7967bb [WRN] No type was specified for the decimal column '"sal"' on entity type '"emp"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)

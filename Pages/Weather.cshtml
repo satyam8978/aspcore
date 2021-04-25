@@ -1,0 +1,44 @@
+﻿@page
+@model WeatherModel
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Weather ForeCast</h1>
+
+    @if (@Model.WeatherClass?.Count() > 0)
+    {
+        <table class="table table-bordered table-hover">
+            <tr class="table-danger">
+                <th>
+                    Date
+
+                </th>
+                <th>
+                    Temptracture-C
+
+                </th>
+                <th>
+                    Temptracture-F
+
+                </th>
+                <th>
+                    Summary
+
+                </th>
+            </tr>
+
+            @foreach (var item in Model.WeatherClass)
+            {
+                <tr class="table-info">
+                    <td>@item.Date</td>
+                    <td>@item.TemperatureC</td>
+                    <td>@item.TemperatureF</td>
+                    <td>@item.summary</td>
+                </tr>
+
+            }
+
+        </table>
+    }
+</div>

@@ -1,0 +1,5 @@
+2021-01-15T14:13:13.0623750+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-01-15T14:13:13.1430972+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2021-01-15T14:13:13.1588711+05:30  [INF] Content root path: "E:\Asp.net core\AspCorePractie" (b5d60022)
+2021-01-15T14:13:13.3632715+05:30 80000031-0000-f800-b63f-84710c7967bb [INF] The main page has been accessed (8ff6bc04)
+2021-01-15T14:14:58.6565502+05:30 80000032-0000-f800-b63f-84710c7967bb [INF] The Privacy page has been accessed (967dbf8b)

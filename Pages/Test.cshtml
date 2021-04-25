@@ -1,0 +1,11 @@
+﻿@page
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration objconfig
+@{
+
+    int a = 2;
+}
+
+<h1>@objconfig["message"]</h1>
+<br />
+<p> Created The Test Page  @a @DateTime.Now</p>
